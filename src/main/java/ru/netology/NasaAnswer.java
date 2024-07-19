@@ -63,6 +63,7 @@ public class NasaAnswer {
     public String getUrl() {
         return url;
     }
+
     @Override
     public String toString() {
         return "\n \"copyright\": " + " \"" + copyright + "\"" + "," +
@@ -72,7 +73,7 @@ public class NasaAnswer {
                 "\n \"media_type\": " + " \"" + media_type + "\"" + "," +
                 "\n \"service_version\": " + " \"" + service_version + "\"" + "," +
                 "\n \"title\": " + " \"" + title + "\"" + "," +
-                "\n \"url\": "  + url;
+                "\n \"url\": " + url;
 
     }
 }
